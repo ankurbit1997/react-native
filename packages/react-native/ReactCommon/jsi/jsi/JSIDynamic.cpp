@@ -142,7 +142,7 @@ void dynamicFromValueShallow(
   } else if (value.isBigInt()) {
     throw JSError(runtime, "JS BigInts are not convertible to dynamic");
   } else if (value.isSymbol()) {
-    throw JSError(runtime, "JS Symbols are not convertible to dynamic");
+    throw JSError(runtime, "JS Symbols -----------");
   } else {
     throw JSError(runtime, "Value is not convertible to dynamic");
   }
